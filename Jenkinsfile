@@ -9,12 +9,6 @@ pipeline {
          steps {
             echo 'Hello World!'
          }
-      }
-   stages {
-      stage( "Build") {
-         steps {
-            sh 'mvn -v' 
-         }
       }   
    }
 }
